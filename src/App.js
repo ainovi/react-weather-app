@@ -7,7 +7,13 @@ export default function App() {
     <div className="container">
       <div className="App">
         {" "}
-        <Weather />
+        <Weather defaultCity="New York" />
+        <footer>
+          Coded by {""}{" "}
+          <a href="https://github.com/ainovi/react-weather-app" target="_blank">
+            Aino
+          </a>
+        </footer>
       </div>
     </div>
   );
