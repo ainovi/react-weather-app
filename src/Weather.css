@@ -47,3 +47,9 @@
   top: -34px;
   margin-left: 5px;
 }
+
+.Weather canvas {
+  margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
