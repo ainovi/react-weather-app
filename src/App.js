@@ -10,7 +10,11 @@ export default function App() {
         <Weather defaultCity="New York" />
         <footer>
           Coded by {""}{" "}
-          <a href="https://github.com/ainovi/react-weather-app" target="_blank">
+          <a
+            href="https://github.com/ainovi/react-weather-app"
+            rel="noreferrer"
+            target="_blank"
+          >
             Aino
           </a>
         </footer>
