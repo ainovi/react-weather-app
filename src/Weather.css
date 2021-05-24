@@ -1,5 +1,11 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
 body {
-  background-color: #eabf9f;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#eabf9f, #b68973);
 }
 .Weather {
   border: 1px solid #dadde1;
@@ -7,7 +13,7 @@ body {
   color: rgb(135, 135, 135);
   padding: 26px;
   margin: 30px auto;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: #faf3e0;
 }
 
@@ -31,7 +37,7 @@ body {
 }
 
 .Weather .temperature {
-  color: rgb(33, 33, 33);
+  color: #1e212d;
   font-size: 70px;
   font-weight: 400;
 }
@@ -44,7 +50,7 @@ body {
 }
 
 .Weather .unit {
-  color: rgb(33, 33, 33);
+  color: #1e212d;
   font-size: 16px;
   font-weight: 400;
   position: relative;
@@ -64,6 +70,14 @@ body {
 }
 
 .btn {
+  background-color: #eabf9f;
+  border-color: #eabf9f;
+}
+
+.btn :hover {
   background-color: #b68973;
-  border-color: #b68973;
+}
+
+a {
+  color: #3c415c;
 }
